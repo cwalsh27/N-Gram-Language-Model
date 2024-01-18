@@ -1,0 +1,38 @@
+My name is Coleman Walsh and I am a sophomore double majoring in Computer Science (AI Concentration) and Cognitive Science (Science of Language).
+
+I saw the Trustworthy AI VIP listed on the website, but it was not listed in the Google form application. I would love the opportunity to participate in the work described on the VIP page if you are still accepting applications for the spring semester.
+
+In the past two semesters, I have done research with both the SLAM Lab and the Voice & Motor Lab on campus, among other projects in introductory machine learning. In the Voice & Motor Lab, when working with larger AI models, we eventually had to switch to another system because of the ambiguity in the decision process that your work is addressing. I am also a Climate Scholar, and very keen to learn more about how your systems could benefit ocean ecosystems in the ways the website describes!
+
+I've attached my resume to this email. Please let me know if you have any questions. I'd love the opportunity to discuss the logistics of the VIP further!
+
+Thanks again for making time to meet in these last weeks of the semester. I’m enjoying learning in our meetings, and believe that you're correct in saying a machine learning course would benefit me. I will eventually be taking several for my Artificial Intelligence concentration, but not for at least another semester. Do you have any recommendations on resources I could study with over the winter session?
+
+Very sorry to hear that! Get your rest, I was just trying to use the time I had before finals week hit and my focus was less available. I'll revert the file names tonight and we can purge ourselves of the failed attempts once we know which ones we're using.
+
+That's fantastic to hear. I'd love to look at the papers, but I doubt I'll have time to dig into them this week.  That said, if you send them then I'll have them for over the break.
+
+As for the BET method, we are off and running! I was able to acquire a completely lossless extraction for one subject. I'll be able to repeat that process for the remaining four and have them uploaded to the team's drive in the next hour!
+
+I regret to say that I won't be able to make it tomorrow. I have a lecture from 11:00-12:30 that I was hoping would just be a review session, but instead, the professor has decided two sorting algorithms are not enough sorting algorithms before the final. (Not a complaint, I do love a good sort. Just some unfortunate timing.)
+
+I hope that everything is going well with the new crew! I just recently cited your class as one of the better introductions I had to the college "share-your-thoughts-and-advocate-for-your-own-learning" environment. I’d love to see some of the material they're putting out if it gets posted somewhere.
+I'm sorry to hear that. Unfortunately, I was planning on meeting in person so I have a class before and a meeting after that prevent me from returning home to meet virtually. I will be able to restructure my day tomorrow to be available at 4:15.
+My name is Coleman Walsh and I am a rising junior (rising senior by credit) in the honors college at the University of Delaware. I am double majoring in computer science (AI concentration) and cognitive science (science of language concentration) and minoring in neuroscience.
+
+I spoke with Nate George and he recommended I apply for the Software Engineering Internship. I'm extremely interested in the work that he described involving data mining and the handling of large data sets that your company is starting to undertake, and would love the opportunity to be a part of those efforts.
+
+Attached below is my resume since attending UD. I would love the chance to talk more about this position. Let me know if you have any questions for me!
+
+Thank you again for putting on the REU seminar yesterday. I had to run out to a 5:00 meeting but I really appreciate Derek and yourself taking the time.
+
+Is there any chance that you have some time in your schedule to meet with me next week? I'm finding myself with more questions than answers regarding my path toward grad school and I'd love some guidance. If you're booked through finals week, I can also meet virtually during the winter session- whatever works best for you!
+
+I'm sorry to hear that. Unfortunately, I was planning on meeting in person so I have a class before and a meeting after that prevent me from returning home to meet virtually. I will be able to restructure my day tomorrow to be available at 4:15.
+For the final project, I'd like to work with n-gram text modeling/generation. My preliminary idea is to use an n-gram model to read a large text file, render it into the model, and then generate a number of random, grammatically correct sentences based on the input data.
+
+Don't worry about responding ASAP, I just wanted to get my email in before someone else could snatch up the topic. My name is Coleman Walsh. I am a second-year student majoring in both cognitive science and computer science. However, I added the computer science major in the spring of 2023, and my Handshake profile has not yet been updated. The Handshake website says to contact the university career office to address the problem. Is there anything that I can do to get this fixed?
+
+
+
+
