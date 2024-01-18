@@ -270,13 +270,13 @@ void TRIGRAM::makeTuplesWithStops(){
             i+=2;
     }
 }
-
+/*
 void NGRAM::makeNGrams() {
     for(auto i = words.begin(); i!=words.end(); i++){
         while()
     }
 }
-
+*/
 
 //TODO: Create function for finding second current word, implement in both form sentence functions
 string TRIGRAM::formSentence(std::string firstWord, int sentLen) {
