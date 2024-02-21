@@ -1,0 +1,1 @@
+For our data structures class, we were able to pick any data structure for our final project. I chose to engage with bigram/trigram/n-gram language models. The system is not polished, but performs rudimentary functionality for sentence production. I also designed a client to perform basic word-prediction based off of a corpus of my own emails over a six month period. 
