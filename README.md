@@ -14,9 +14,9 @@ Usage:
 4. Run main.cpp with $./final [INPUT_TEXT_FILENAME] [OPTIONAL_SENTENCE_START_WORD]
 
 
-Further improvement plans:\
-- Isolate sentence start words to prevent fragments\
-- Update client to perform both functions (sentence generation/auto-complete) depending on user input\\
+Further improvement plans:
+- Isolate sentence start words to prevent fragments
+- Update client to perform both functions (sentence generation/auto-complete) depending on user input
 
 
 
