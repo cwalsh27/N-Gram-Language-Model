@@ -2,16 +2,11 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
-#include <cstdlib>
-#include <string>
 #include <cmath>
 #include <map>
 #include <random>
 
-
 using namespace std;
-
-
 
 class GramModel
 {
@@ -148,8 +143,7 @@ vector<string> GramModel::returnTokens(string sentence)
     }
 
     return tokens;
-
-};
+}
 
 void GramModel::tokenize(string sentence)
 {
@@ -178,7 +172,6 @@ void BIGRAM::makePairs(){
     for(auto i = words.begin(); i != words.end(); i++ ){
 
         pair<string, string> bigram = make_pair(removeStops(*i),removeStops(*(i+1)));
-        //cout << bigram.first << " " << bigram.second << "\n";
 
         bigramModel[bigram]++;
 
@@ -216,7 +209,6 @@ string BIGRAM::formSentence(std::string firstWord, int sentLen) {
 
     for(int i = 0; i<sentLen; i++){
 
-        //cout << current << "\n";
         sentence += current + " ";
 
         vector<string> nextWords;
@@ -270,13 +262,7 @@ void TRIGRAM::makeTuplesWithStops(){
             i+=2;
     }
 }
-/*
-void NGRAM::makeNGrams() {
-    for(auto i = words.begin(); i!=words.end(); i++){
-        while()
-    }
-}
-*/
+
 
 //TODO: Create function for finding second current word, implement in both form sentence functions
 string TRIGRAM::formSentence(std::string firstWord, int sentLen) {
@@ -431,7 +417,6 @@ string TRIGRAM::formSentence(string firstWord){
     vector<string> nextWords1;
     for(auto& entry : trigramModel) {
         if(get<0>(entry.first) == current1) {
-            //cout << entry.first.first << "\n";
             for(int j = 0; j<entry.second; j++)
                 nextWords1.push_back(get<1>(entry.first));
         }
@@ -446,7 +431,6 @@ string TRIGRAM::formSentence(string firstWord){
         uniform_int_distribution<> distr(0,nextWords1.size()-1);
         randIndex = distr(gen);
         current2 = nextWords1[randIndex];
-        //cout << "Second word: " << current2 << "\n";
     }
 
     //BEGIN LOOPING TRIGRAM
@@ -455,7 +439,6 @@ string TRIGRAM::formSentence(string firstWord){
     bool finito = false;
     int i = 0;
     while(!finito){
-        //cout << "Len pos: " << i << "    Words: " << current1 << ", " << current2 << "\n";
         i++;
         vector<string> nextWords2;
         nextWords2.clear();
@@ -571,7 +554,6 @@ int main(int argc, char **argv)
 
 
 
-    //cout << "\n\n\n\n\n\n";
 
     //list tuples
     //cout << "Trigram Model:\n";
@@ -587,7 +569,7 @@ int main(int argc, char **argv)
     cout << "Trigram Sentence: ";
     cout << tg->formSentence("xyz") << "\n";
 
-
+//Client for sentence prediction
 /*
 
     bool finito = false;
