@@ -15,8 +15,11 @@ Usage:
 
 
 Further improvement plans:
+- Debug n-gram version of structure
 - Isolate sentence start words to prevent fragments
+- Add compatibility with spelling/forming words, rather than sentences 
 - Update client to perform both functions (sentence generation/auto-complete) depending on user input
+
 
 
 
