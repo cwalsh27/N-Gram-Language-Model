@@ -1,6 +1,6 @@
 # Bigram/Trigram Language Model
 
-For CISC220 (Data Structures), students were instrcuted to pick any data structure we had not worked with in class for our final project. 
+For CISC220 (Data Structures), students were instructed to pick any data structure we had not worked with in class for our final project. 
 I chose to engage with bigram/trigram/n-gram language models because I have a strong interest in cognitive science/linguistics. 
 The system is not polished but performs rudimentary functionality for sentence production. 
 I also designed a client to perform basic word prediction as many modern e-mail clients are equipped with. 
