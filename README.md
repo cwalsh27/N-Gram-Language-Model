@@ -7,11 +7,11 @@ I also designed a client to perform basic word prediction as many modern e-mail 
 
 
 
-Usage:\ 
-1. Move input text file (sentence corpus) into the same directory as makefile and main.cpp\
-2. Open terminal and navigate to the directory\
-3. Run makefile with $make\
-4. Run main.cpp with $./final [INPUT_TEXT_FILENAME] [OPTIONAL_SENTENCE_START_WORD]\
+Usage:
+1. Move input text file (sentence corpus) into the same directory as makefile and main.cpp
+2. Open terminal and navigate to the directory
+3. Run makefile with $make
+4. Run main.cpp with $./final [INPUT_TEXT_FILENAME] [OPTIONAL_SENTENCE_START_WORD]
 
 
 Further improvement plans:\
