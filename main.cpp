@@ -527,7 +527,7 @@ int main(int argc, char **argv)
         exit(1);
     }
 
-
+    //initialize data structures
     BIGRAM *bg = new BIGRAM();
     TRIGRAM *tg = new TRIGRAM();
 
@@ -547,30 +547,30 @@ int main(int argc, char **argv)
 
 
     //list pairs
-    //cout << "Bigram Model:\n";
-    for(const auto& entry : bg->bigramModel){
-        //cout << "(" << entry.first.first << ", " << entry.first.second << "): " << entry.second << endl;
-    }
-
-
-
+//
+//    cout << "Bigram Model:\n";
+//    for(const auto& entry : bg->bigramModel){
+//        cout << "(" << entry.first.first << ", " << entry.first.second << "): " << entry.second << endl;
+//    }
 
     //list tuples
-    //cout << "Trigram Model:\n";
-    for(const auto& entry : tg->trigramModel){
-        //cout << "(" << get<0>(entry.first) << ", " << get<1>(entry.first) <<  ", " << get<2>(entry.first) << "): " << entry.second << "\n";
-    }
+//    cout << "Trigram Model:\n";
+//    for(const auto& entry : tg->trigramModel){
+//        cout << "(" << get<0>(entry.first) << ", " << get<1>(entry.first) <<  ", " << get<2>(entry.first) << "): " << entry.second << "\n";
+//    }
 
     //basic sentence gen
-    cout << "Bigram Sentence: ";
+    cout << "Bigram Sentence, first word I: ";
     cout << bg->formSentence("I", 6) << "\n";
 
     //basic sentence gen
-    cout << "Trigram Sentence: ";
-    cout << tg->formSentence("xyz") << "\n";
+    cout << "Trigram Sentence, first word I: ";
+    cout << tg->formSentence("I") << "\n\n\n\n\n";
 
-//Client for sentence prediction
-/*
+
+
+//CLIENT FOR PREDICTIVE TEXT
+
 
     bool finito = false;
     bool autoEngage = false;
@@ -657,5 +657,5 @@ int main(int argc, char **argv)
 
 
     return 0;
-    */
+
 }
