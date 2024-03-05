@@ -12,6 +12,7 @@ Usage:
 2. Open terminal and navigate to the directory
 3. Run makefile with $make
 4. Run main.cpp with $./final [INPUT_TEXT_FILENAME] [OPTIONAL_SENTENCE_START_WORD]
+5. Enter sentence one word at a time, following prompts in terminal. Entering a stop character (".") will terminate program 
 
 
 Further improvement plans:
